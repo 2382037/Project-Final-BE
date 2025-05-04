@@ -9,7 +9,7 @@ async function bootstrap() {
   app.enableCors();
 
   const config = new DocumentBuilder()
-    .setTitle('Toko Sepatu API')
+    .setTitle('Toko Sepatu API Media')
     .addBearerAuth()
     .addSecurityRequirements('bearer')
     .build();
